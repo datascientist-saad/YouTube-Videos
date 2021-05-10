@@ -7,6 +7,7 @@ In this video, I talked about Windows Terminal. It is a powerful tool built by M
 - How to SSH into your Google Cloud Platform Virtual Machine Instances and your    Google Cloud Shell Console. 
 
 Thanks for watching 🥰! 
+
 Edited in DaVinci Resolve 17. 
 
 #GCP  #gcp  #cloud  #ubuntu  #kalilinux  #linux  #terminal  #cmd  #Windows  #microsoft  #ssh  #hacking  #tech  #life  #productivity
