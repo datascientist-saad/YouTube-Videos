@@ -28,17 +28,18 @@ Process for a custom Windows Terminal tab:
 2. Go to Settings and click "Open JSON file" 
 3. Then add the following: 
 
-    { "backgroundImage": "C:/Users/user/Downloads/Pictures/gcp.png", "backgroundImageOpacity": 0.2, 
-    "commandline": "wsl ~/ssh-gcloud-env.sh [email] [project_id]",
-     "hidden": false, 
-     "icon": "C:/Users/user/Downloads/Pictures/gcp.png", 
-     "name": "SSH into GCP" 
+    { 
+      "backgroundImage": "C:/Users/user/Downloads/Pictures/gcp.png",   
+      "backgroundImageOpacity": 0.2, 
+      "commandline": "wsl ~/ssh-gcloud-env.sh [email] [project_id]",
+      "hidden": false, 
+      "icon": "C:/Users/user/Downloads/Pictures/gcp.png", 
+      "name": "SSH into GCP" 
      }, 
 
 4. Then, open your wsl2 Ubuntu VM, and in your /home/user/ directory make a file named "ssh-gcloud-env.sh". And type in the following commands:
- 
-
-     gcloud auth login $1 
+  
+    gcloud auth login $1 
      gcloud config set project $2 
      gcloud cloud-shell ssh 
 
